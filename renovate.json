@@ -1,4 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": ["config:recommended"],  // Renovate 공식 권장 기본값
+  "schedule": ["every weekend"], // schedule 스캔 주기
+  "timezone": "Asia/Seoul",
+  "prConcurrentLimit": 5, // 동시에 열릴 수 있는 PR 최대 개수
+  "prCreationDelay": "3 days"  // 새 버전 나오고 3일 후 PR 생성 (너무 빨리 올라온 버전에 버그 있을 경우 대비)
 }
