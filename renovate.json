@@ -7,7 +7,8 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
-      "labels": ["automerge"]
+      "labels": ["automerge"],
+      "ignoreTests": true
     }
   ]
   "prConcurrentLimit": 5,
