@@ -2,4 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"], 
   "schedule": ["every weekend"],
+  "prConcurrentLimit": 5, 
+  "prCreationDelay": "3 days"  
 }
