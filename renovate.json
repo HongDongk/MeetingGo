@@ -6,9 +6,10 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "automerge": true,
+      "addLabels": ["automerge"]
     }
-  ]
+  ],
   "prConcurrentLimit": 5,
   "minimumReleaseAge": "3 days"
 }
