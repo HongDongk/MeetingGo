@@ -5,6 +5,11 @@
   "commitMessageAction": "",
   "commitMessagePrefix": "ENH:",
   "commitMessageTopic": "{{{depName}}}",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "addLabels": ["security"],
+    "automerge": true
+  },  
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
