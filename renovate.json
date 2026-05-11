@@ -8,7 +8,14 @@
       "automerge": true,
       "ignoreTests": true,    
       "addLabels": ["auto-update"],
+      "commitMessage": "[BLD] {{{depName}}} 버전 업데이트
     },
+    {
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "reviewers": ["HongDongk"],
+      "addLabels": ["major-update"],
+    }
   ],
   "prConcurrentLimit": 7,
 }
