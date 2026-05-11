@@ -2,24 +2,22 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "timezone": "Asia/Seoul",
+  "commitMessageAction": "",
+  "commitMessagePrefix": "ENH:",
+  "commitMessageTopic": "{{{depName}}}",
+  "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 업데이트",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
       "ignoreTests": true,    
       "addLabels": ["auto-update", "enhancement"],
-      "commitMessagePrefix": "ENH:",
-      "commitMessageTopic": "{{{depName}}}",
-      "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 마이너 업데이트",
     },
     {
       "matchUpdateTypes": ["major"],
       "automerge": false,
       "reviewers": ["HongDongk"],
       "addLabels": ["major-update", "enhancement"],
-      "commitMessagePrefix": "ENH:",
-      "commitMessageTopic": "{{{depName}}}",
-      "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 메인 업데이트"
     }
   ],
   "prConcurrentLimit": 7,
