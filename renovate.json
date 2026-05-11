@@ -11,14 +11,14 @@
       "automerge": true,
       "ignoreTests": true,    
       "addLabels": ["auto-update", "enhancement"],
-      "commitMessageExtra": "{{{newValue}}} 업데이트"
+      "commitMessageExtra": "{{{newValue}}} 마이너 업데이트"
     },
     {
       "matchUpdateTypes": ["major"],
       "automerge": false,
       "reviewers": ["HongDongk"],
       "addLabels": ["major-update", "enhancement"],
-      "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 업데이트"
+      "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 메인 업데이트"
     }
   ],
   "prConcurrentLimit": 7,
