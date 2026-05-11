@@ -11,14 +11,6 @@
       "commitMessage": "[BLD] {{{depName}}} {{{currentValue}}} -> {{{newValue}}} 버전 업데이트",
       "prTitle": "BLD: {{{depName}}} {{{newValue}}} 버전 업데이트"
     },
-    {
-      "matchUpdateTypes": ["major"],
-      "automerge": false,
-      "reviewers": ["HongDongk"],
-      "addLabels": ["major-update"],
-      "commitMessage": "[BLD] {{{depName}}} {{{currentValue}}} -> {{{newValue}}} 버전 업데이트",
-      "prTitle": "BLD: {{{depName}}} {{{newValue}}} 버전 업데이트"
-    }
   ],
   "prConcurrentLimit": 7,
 }
