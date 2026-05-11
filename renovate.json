@@ -11,6 +11,6 @@
       "addLabels": ["automerge"]
     }
   ],
-  "prConcurrentLimit": 5,
+  "prConcurrentLimit": 7,
   "minimumReleaseAge": "0"
 }
