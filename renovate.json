@@ -2,11 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "timezone": "Asia/Seoul",
-  "ignoreTests": true,    
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
+      "ignoreTests": true,    
       "addLabels": ["auto-update"],
       "commitMessage": "[BLD] {{{depName}}} {{{currentValue}}} -> {{{newValue}}} 버전 업데이트",
       "prTitle": "BLD: {{{depName}}} {{{newValue}}} 버전 업데이트"
