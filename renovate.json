@@ -9,6 +9,7 @@
       "ignoreTests": true,    
       "addLabels": ["auto-update", "enhancement"],
       "commitMessagePrefix": "[BLD]",
+      "commitMessageTopic": "",
       "commitMessageAction": "",
       "commitMessageExtra": "v{{{currentValue}}} → v{{{newValue}}} 마이너 업데이트",
     },
@@ -18,6 +19,7 @@
       "reviewers": ["HongDongk"],
       "addLabels": ["major-update", "enhancement"],
       "commitMessagePrefix": "[BLD]",
+      "commitMessageTopic": "",
       "commitMessageAction": "",
       "commitMessageExtra": "v{{{currentValue}}} → v{{{newValue}}} 메인 업데이트"
     }
