@@ -8,7 +8,7 @@
       "automerge": true,
       "ignoreTests": true,    
       "addLabels": ["auto-update", "enhancement"],
-      "commitMessagePrefix": "[BLD]",
+      "commitMessagePrefix": "[ENH]",
       "commitMessageTopic": "{{{depName}}}",
       "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 마이너 업데이트",
     },
@@ -17,7 +17,7 @@
       "automerge": false,
       "reviewers": ["HongDongk"],
       "addLabels": ["major-update", "enhancement"],
-      "commitMessagePrefix": "[BLD]",
+      "commitMessagePrefix": "ENH:",
       "commitMessageTopic": "{{{depName}}}",
       "commitMessageExtra": "{{{newValue}}} 메인 업데이트"
     }
