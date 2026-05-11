@@ -11,6 +11,14 @@
       "commitMessagePrefix": "[BLD]",
       "commitMessageExtra": "{{{depName}}} {{currentValue}} -> {{newValue}} 마이너 버전 업데이트",
     },
+    {
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "reviewers": ["HongDongk"],
+      "addLabels": ["major-update", "enhancement"],
+      "commitMessagePrefix": "[BLD]",
+      "commitMessageExtra": "{{{depName}}} {{{currentValue}}} -> {{{newValue}}} 메인 버전 업데이트"
+    }
   ],
   "prConcurrentLimit": 7,
 }
