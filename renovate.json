@@ -5,19 +5,20 @@
   "commitMessageAction": "",
   "commitMessagePrefix": "ENH:",
   "commitMessageTopic": "{{{depName}}}",
-  "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 업데이트",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
       "ignoreTests": true,    
       "addLabels": ["auto-update", "enhancement"],
+      "commitMessageExtra": "{{{newValue}}} 업데이트"
     },
     {
       "matchUpdateTypes": ["major"],
       "automerge": false,
       "reviewers": ["HongDongk"],
       "addLabels": ["major-update", "enhancement"],
+      "commitMessageExtra": "[{{{currentValue}}} → {{{newValue}}}] 업데이트"
     }
   ],
   "prConcurrentLimit": 7,
