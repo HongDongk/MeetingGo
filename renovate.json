@@ -14,6 +14,7 @@
     {
       "matchUpdateTypes": ["major"],
       "automerge": false,
+      "ignoreTests": true,  
       "reviewers": ["HongDongk"],
       "addLabels": ["major-update"],
       "commitMessage": "[BLD] {{{depName}}} {{{currentValue}}} -> {{{newValue}}} 버전 업데이트",
