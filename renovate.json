@@ -11,5 +11,5 @@
     }
   ],
   "prConcurrentLimit": 5,
-  "minimumReleaseAge": "3 days"
+  "minimumReleaseAge": "0"
 }
