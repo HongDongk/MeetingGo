@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
-    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint": "^7.32.0 || ^8.2.0 || ^10.0.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
