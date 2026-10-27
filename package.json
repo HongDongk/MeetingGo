@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^7.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
     "@tosspayments/payment-sdk": "^1.4.0",
     "antd": "^5.1.5",
     "axios": "^1.2.2",
